@@ -1,1 +1,1 @@
-# bulksendertools.github.io
+# https://q-sender.github.io/bulksendertools/
