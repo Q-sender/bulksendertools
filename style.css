@@ -2768,164 +2768,231 @@ span.icon-whatsapp.wm {
 .containers2{
     display: none;
 }
-$basic-color: #E8B47B ;
-$plus-color: #7FC4CB;
-$premium-color: #4979B9;
-.price-tables{
-  margin-top: 50px;
+#SECTION_1 {
+    color: rgb(101, 112, 123);
+    height: 350px;
+    position: relative;
+    text-decoration: none solid rgb(101, 112, 123);
+    width: 900px;
+    border: 0px none rgb(101, 112, 123);
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px 70px;
+    outline: rgb(101, 112, 123) none 0px;
+}/*#SECTION_1*/
+
+#SECTION_1:after {
+    clear: both;
+    color: rgb(101, 112, 123);
+    text-decoration: none solid rgb(101, 112, 123);
+    visibility: hidden;
+    width: 900px;
+    content: ' ';
+    border: 0px none rgb(101, 112, 123);
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    outline: rgb(101, 112, 123) none 0px;
+}/*#SECTION_1:after*/
+
+#price-box{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+    color: rgb(101, 112, 123);
+    float: left;
+    height: 261px;
+    text-align: center;
+    text-decoration: none solid rgb(101, 112, 123);
+    width: 201px;
+    border: 0px none rgb(101, 112, 123);
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px 10px 21px 5px;
+    outline: rgb(101, 112, 123) none 0px;
+}/*#DIV_2*/
+
+
+
+.plan-title {
+    color: rgb(80, 92, 100);
+    height: 24px;
+    opacity: 0.699999988079071;
+    text-align: center;
+    text-decoration: none solid rgb(80, 92, 100);
+    text-transform: uppercase;
+    width: 172px;
+    z-index: 0;
+    background: rgb(221, 228, 233) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(80, 92, 100);
+    border-radius: 5px 5px 0 0;
+    font: normal normal bold 12px/24px Arial, Helvetica, sans-serif;
+    margin: 0px;
+    outline: rgb(80, 92, 100) none 0px;
+    padding: 9px 15px;
+}/*#H5_4, #H5_25, #H5_36*/
+
+.plan-price {
+    background-position: 50% 100%;
+    color: rgb(80, 92, 100);
+    height: 41px;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: none solid rgb(80, 92, 100);
+    width: 172px;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0) url(http://www.verint.com/userconference/images/price-tab-bg1.png) repeat scroll 50% 100% / auto padding-box border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 0px none rgb(80, 92, 100);
+    border-bottom: 0px none rgb(80, 92, 100);
+    border-left: 0px none rgb(80, 92, 100);
+    font: normal normal 300 14px/normal Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(80, 92, 100) none 0px;
+    padding: 12px 15px;
+}/*#H6_5, #H6_26, #H6_37*/
+
+.price-small {
+    color: rgb(41, 158, 188);
+    text-align: center;
+    text-decoration: none solid rgb(41, 158, 188);
+    text-shadow: rgba(255, 255, 255, 0.298039) 0px 1px 1px;
+    border: 0px none rgb(41, 158, 188);
+    font: normal normal bold 34px/normal Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    outline: rgb(41, 158, 188) none 0px;
+}/*#SPAN_6, #SPAN_27, #SPAN_38*/
+
+.features {
+    height: 40px;
+    width: 200px;
+    margin: 0px 0px 21px 3px;
+    padding: 11px 16px;
+}/*#UL_7*/
+
+
+
+
+.price-footer {
+    background-position: 50% 0%;
+    color: rgb(101, 112, 123);
+    height: 49px;
+    text-align: center;
+    text-decoration: none solid rgb(101, 112, 123);
+    width: 201px;
+    background: rgb(234, 234, 234) url(http://www.verint.com/userconference/images/price-tab-bg1.png) repeat scroll 50% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(232, 237, 238);
+    border-right: 0px none rgb(101, 112, 123);
+    border-bottom: 0px none rgb(101, 112, 123);
+    border-left: 0px none rgb(101, 112, 123);
+    border-radius: 0 0 5px 5px;
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    outline: rgb(101, 112, 123) none 0px;
+    padding: 20px 0px 0px;
+}/*#DIV_10, #DIV_32, #DIV_43*/
+
+
+
+.highlight {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+    color: rgb(101, 112, 123);
+    float: left;
+    height: 292px;
+    text-align: center;
+    text-decoration: none solid rgb(101, 112, 123);
+    width: 200px;
+    border: 0px none rgb(101, 112, 123);
+    border-radius: 5px 5px 5px 5px;
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px 10px 21px 5px;
+    outline: rgb(101, 112, 123) none 0px;
+}/*#DIV_12*/
+
+
+
+.standard {
+    color: rgb(80, 92, 100);
+    height: 50px;
+    text-align: center;
+    text-decoration: none solid rgb(80, 92, 100);
+    width: 171px;
+    background: rgb(105, 204, 51) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(93, 185, 102);
+    border-right: 0px none rgb(80, 92, 100);
+    border-bottom: 0px none rgb(80, 92, 100);
+    border-left: 0px none rgb(80, 92, 100);
+    font: normal normal 300 14px/normal Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(80, 92, 100) none 0px;
+    padding: 15px;
+}/*#H6_15*/
+
+.standard-price {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 1px 1px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold 42px/normal Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#SPAN_16*/
+
+.date {
+    color: rgb(101, 112, 123);
+    height: 67px;
+    text-align: center;
+    text-decoration: none solid rgb(101, 112, 123);
+    width: 170px;
+    border: 0px none rgb(101, 112, 123);
+    font: normal normal normal 15px/24px Lato, 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    font-size: 14px;
+    margin: 0px 0px 14px;
+    padding: 18px 0px 0px;
+}/*#UL_17, #UL_28, #UL_39*/
+
+.standard-footer {
+  height:65px;
+  width:200px;
 }
 
-@mixin check {
-  border-radius: 25px;
-  color: white;
-  font-size: 11px;
-  padding: 3px;
-  margin-right: 1rem;
-}
 
-@mixin header{
-  height: 200px;
-  width: 100%;
-  background-color: red; /* For browsers that do not support gradients */
-  color: white;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 12px 12px 0px 0px;
-}
+.greenButton {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px 0px inset;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.341176) 0px -1px 0px;
+    text-transform: uppercase;
+    width: 126px;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(105, 204, 51), rgb(90, 181, 40)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(51, 153, 51);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal bold 16px/normal Helvetica, Arial, sans-serif;
+    margin: 0px 0px 21px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 15px;
+}/*#A_22*/
 
-li{
-  list-style: none;
-}
 
-a{
-  color:white;
-}
+.buttonDate {
+    box-shadow: rgb(255, 255, 255) 0px 0px 2px 0px inset;
+    color: rgb(101, 111, 121);
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    text-align: center;
+    text-decoration: none solid rgb(101, 111, 121);
+    text-shadow: rgb(255, 255, 255) 0px -1px 0px;
+    text-transform: uppercase;
+    width: 100px;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgb(253, 253, 253), rgb(225, 228, 229)) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(227, 229, 230);
+    border-radius: 3px 3px 3px 3px;
+    font: normal normal bold 13px/normal Helvetica, Arial, sans-serif;
+    margin: 0px 0px 21px;
+    outline: rgb(101, 111, 121) none 0px;
+    padding: 5px 7px;
+}/*#A_33*/
 
-.fa-info-circle{
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  font-size: 15px;
-}
 
-.pricing{
-   &-header{
-      @include header;
-  background-image: linear-gradient(#EFCA79, #E8B47B); 
-   &-plus{
-      @include header;
-      background-image: linear-gradient(#4091E3, #92CDC7); 
-  }
-  &-premium{
-      @include header;
-       background-image: linear-gradient(#615198, #9D4CA0); 
-  }
-  }
-    &-table {
-       text-align: center;
-       height: 100%;
-       display: flex;
-       flex-flow: column wrap;
-       box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
-       transform: scale(1);
-       border:0;
-       background-color: white;
-       transition: 0.4s ease;
-       z-index:13;
-       border-radius: 20px;
-          &:hover{
-            transform: scale(1.1);
-            z-index:95;
-             @media screen and (max-width: 40em){
-          transform: scale(1);
-        }
-             @media only screen and (min-width: 40.063em) and (max-width: 64em) {  
-          transform: scale(1);
-      }
-        }  
-       }
-      &-content {
-      padding-top: 1.5rem;
-        .fa-check{
-          background-color: $basic-color;
-          @include check;
-        }
-        &-plus{
-          margin-top: 30px;
-          .fa-check{
-            background-color: $plus-color;
-            @include check;
-        }
-        }
-        &-premium{
-            margin-top: 30px;
-          .fa-check{
-              background-color: $premium-color;
-              @include check;
-          }
-        }
-        }
-}
 
-.pricingh{
-  &-basic{
-  color: $basic-color; }
-  &-plus{
-    color: $premium-color;
-}
-}
 
-.bullet-item{
-  padding: 0.3rem;
-  text-align: left;
-  padding-left: 2rem;
-  color: black;
-  font-weight: 500;
-}
-
-.title{
-  font-size: 40px;
-}
-
-.button{
-  font-size: 0.8rem;
-  padding: 1rem 3rem 1rem 3rem;
-  font-weight: 700;
-  border-radius: 23px;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}
-
-.button--free{
-  border: 3.5px solid $basic-color !important;
-  border-color: $basic-color;
-  color: black !important; //in the real world you would chnage the variable $button-color or from $button-palette in the foundation settings
-  background-color: #fff;
-  &:hover{
-    box-shadow: 0 0 1em 0.5em $basic-color;
-  }
-}
-
-.button--plus{
-  background-color: $plus-color !important;
-  border: 2px solid $plus-color;
-  border-color: $plus-color;
-   &:hover{
-    box-shadow: 0 0 1em 0.5em $plus-color;
-    background-color: #5ec5cf !important; // Basically I would just do this for the rest of the buttons take the current color and darken it, but for free-background color well, it dose not look right I belive an box shadow is a bit more elegant :)
-     
-  }
-}
-
-.button--premium{
-  background-color: $premium-color;
-  border: 2px solid $premium-color;
-  border-color: $premium-color;
-    &:hover{
-    box-shadow: 0 0 1em 0.5em $premium-color;
-    background-color: $premium-color;
-    color:white;
-  }
 }
