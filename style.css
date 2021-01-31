@@ -2768,41 +2768,164 @@ span.icon-whatsapp.wm {
 .containers2{
     display: none;
 }
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+$basic-color: #E8B47B ;
+$plus-color: #7FC4CB;
+$premium-color: #4979B9;
+.price-tables{
+  margin-top: 50px;
+}
 
-.panel-pricing {
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -webkit-transition: all .3s ease;
+@mixin check {
+  border-radius: 25px;
+  color: white;
+  font-size: 11px;
+  padding: 3px;
+  margin-right: 1rem;
 }
-.panel-pricing:hover {
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+
+@mixin header{
+  height: 200px;
+  width: 100%;
+  background-color: red; /* For browsers that do not support gradients */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px 12px 0px 0px;
 }
-.panel-pricing .panel-heading {
-  padding: 20px 10px;
+
+li{
+  list-style: none;
 }
-.panel-pricing .panel-heading .fa {
-  margin-top: 10px;
-  font-size: 58px;
+
+a{
+  color:white;
 }
-.panel-pricing .list-group-item {
-  color: #777777;
-  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+
+.fa-info-circle{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 15px;
 }
-.panel-pricing .list-group-item:last-child {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+
+.pricing{
+   &-header{
+      @include header;
+  background-image: linear-gradient(#EFCA79, #E8B47B); 
+   &-plus{
+      @include header;
+      background-image: linear-gradient(#4091E3, #92CDC7); 
+  }
+  &-premium{
+      @include header;
+       background-image: linear-gradient(#615198, #9D4CA0); 
+  }
+  }
+    &-table {
+       text-align: center;
+       height: 100%;
+       display: flex;
+       flex-flow: column wrap;
+       box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+       transform: scale(1);
+       border:0;
+       background-color: white;
+       transition: 0.4s ease;
+       z-index:13;
+       border-radius: 20px;
+          &:hover{
+            transform: scale(1.1);
+            z-index:95;
+             @media screen and (max-width: 40em){
+          transform: scale(1);
+        }
+             @media only screen and (min-width: 40.063em) and (max-width: 64em) {  
+          transform: scale(1);
+      }
+        }  
+       }
+      &-content {
+      padding-top: 1.5rem;
+        .fa-check{
+          background-color: $basic-color;
+          @include check;
+        }
+        &-plus{
+          margin-top: 30px;
+          .fa-check{
+            background-color: $plus-color;
+            @include check;
+        }
+        }
+        &-premium{
+            margin-top: 30px;
+          .fa-check{
+              background-color: $premium-color;
+              @include check;
+          }
+        }
+        }
 }
-.panel-pricing .list-group-item:first-child {
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
+
+.pricingh{
+  &-basic{
+  color: $basic-color; }
+  &-plus{
+    color: $premium-color;
 }
-.panel-pricing .panel-body {
-  background-color: #f0f0f0;
+}
+
+.bullet-item{
+  padding: 0.3rem;
+  text-align: left;
+  padding-left: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.title{
   font-size: 40px;
-  color: #777777;
-  padding: 20px;
-  margin: 0px;
-}
 }
 
+.button{
+  font-size: 0.8rem;
+  padding: 1rem 3rem 1rem 3rem;
+  font-weight: 700;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.button--free{
+  border: 3.5px solid $basic-color !important;
+  border-color: $basic-color;
+  color: black !important; //in the real world you would chnage the variable $button-color or from $button-palette in the foundation settings
+  background-color: #fff;
+  &:hover{
+    box-shadow: 0 0 1em 0.5em $basic-color;
+  }
+}
+
+.button--plus{
+  background-color: $plus-color !important;
+  border: 2px solid $plus-color;
+  border-color: $plus-color;
+   &:hover{
+    box-shadow: 0 0 1em 0.5em $plus-color;
+    background-color: #5ec5cf !important; // Basically I would just do this for the rest of the buttons take the current color and darken it, but for free-background color well, it dose not look right I belive an box shadow is a bit more elegant :)
+     
+  }
+}
+
+.button--premium{
+  background-color: $premium-color;
+  border: 2px solid $premium-color;
+  border-color: $premium-color;
+    &:hover{
+    box-shadow: 0 0 1em 0.5em $premium-color;
+    background-color: $premium-color;
+    color:white;
+  }
+}
